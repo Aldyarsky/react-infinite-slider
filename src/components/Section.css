@@ -1,0 +1,44 @@
+.section{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.sample
+{
+    height: 400px;
+    margin-right: 40px;
+    width: 500px;
+    flex-shrink: 0;
+    background-color: blue;
+}
+.carousel-left{
+    position: absolute;
+    left: 10%;
+    top: 45%;
+    background-color: #ccc;
+    background-image: url("./Sideways_Arrow_Icon.svg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:40px;
+    height: 40px;
+    border-radius: 100%;
+    z-index: 2;
+    
+    transform: scaleX(-1);
+}
+.carousel-right{
+    right: 10%;
+    top: 45%;
+    position: absolute;
+    background-color: #ccc;
+    background-image: url("./Sideways_Arrow_Icon.svg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:40px;
+    height: 40px;
+    border-radius: 100%;
+}

@@ -1,0 +1,39 @@
+.carouselItem{
+    display: inline-block;
+    position: relative;
+
+}
+.carouselItem .title{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    z-index: 1;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.carouselItem .title .online{
+    background-color: greenyellow;
+    padding: 0.25em 1em;
+    border-radius: 5em;
+}
+.carouselItem .title .offline{
+    background-color: red;
+    padding: 0.25em 1em;
+    border-radius: 5em;
+}
+.carouselItem .title h2{
+    font-weight: 600;
+}
+/* .carouselItem .status{
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    z-index: 1;
+} */
+.carouselItem .image{
+    z-index: 0;
+    filter: brightness(95%);
+}
